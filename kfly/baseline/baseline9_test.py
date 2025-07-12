@@ -13,7 +13,7 @@ import joblib # For loading scaler and label_encoders
 script_dir = os.path.dirname(__file__)
 
 TEST_DATA_PATH = os.path.join(script_dir, '..', 'data', 'test_data', 'testA_data.csv')
-OUTPUT_DIR = os.path.join(script_dir, '..', 'data', 'baseline8_output') # 从这里加载模型和预处理器
+OUTPUT_DIR = os.path.join(script_dir, '..', 'data', 'baseline9_output') # 从这里加载模型和预处理器
 SUBMISSION_FILE_PATH = os.path.join(OUTPUT_DIR, 'submission_baseline8.csv')
 
 UNSEEN_CATEGORY_PLACEHOLDER = '___UNSEEN___'
